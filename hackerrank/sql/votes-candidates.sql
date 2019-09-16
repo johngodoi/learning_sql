@@ -1,0 +1,1 @@
+select sum(r.votes) from candidates c join results r on c.id=r.candidate_id where c.gender = 'F' and c.age < 50
